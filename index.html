@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="RC Barber Club — Barbearia premium com sofisticação, precisão nos cortes e experiência exclusiva.">
+    <meta name="theme-color" content="#11100F">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="RC Barber Club — Estilo Não Se Improvisa">
+    <meta property="og:description" content="Barbearia de luxo com cortes precisos, atendimento personalizado e ambiente sofisticado.">
+    <meta property="og:image" content="/images/og-image.jpg">
+    <meta property="og:url" content="https://rcbarberclub.com">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='24' font-weight='bold' fill='%23F7F4EF'>RC</text></svg>">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lora:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>RC Barber Club — Estilo Não Se Improvisa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <img src="images/logo-rc.jpg" alt="RC Barber Club" class="navbar-logo-img">
+                <span class="navbar-text">RC BARBER CLUB</span>
+            </div>
+
+            <button class="navbar-toggle" id="navbar-toggle" aria-label="Abrir menu" aria-controls="navbar-menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <a href="#agendar" class="cta-button">AGENDAR</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-background">
+            <picture>
+                <source media="(max-width: 720px)" srcset="images/7829d03c-8a37-4871-bf5e-0e6e6a3cf08f.jpg">
+                <img src="images/829c8e27-7aae-4bef-9aaf-0b2a4307a62d.jpg" alt="RC Barber Club — Barbearia Premium" fetchpriority="high">
+            </picture>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">RC BARBER CLUB</div>
+            <h1 class="hero-title">
+                Estilo Não<br>
+                Se Improvisa
+            </h1>
+            <p class="hero-subtitle">Precisão nos cortes, atenção aos detalhes e uma experiência feita para quem valoriza o próprio estilo.</p>
+
+            <div class="hero-ctas">
+                <a href="https://wa.me/5511999999999?text=Gostaria%20de%20agendar%20um%20horário" class="cta-primary" target="_blank" rel="noopener">AGENDAR HORÁRIO</a>
+                <a href="#sobre" class="cta-secondary">CONHEÇA A BARBEARIA</a>
+            </div>
+        </div>
+
+        <button class="hero-scroll" type="button" aria-label="Rolar para a seção Sobre">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 5v14M5 12l7 7 7-7"></path>
+            </svg>
+        </button>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-grid">
+                <div class="sobre-image">
+                    <div class="sobre-image-placeholder">Adicione foto de corte aqui</div>
+                </div>
+
+                <div class="sobre-content">
+                    <h2 class="section-title">Mais Que Um Corte.<br>Uma Experiência.</h2>
+                    <p class="section-text">
+                        A RC Barber Club é mais do que uma barbearia. É um espaço onde a tradição encontra a precisão, onde cada detalhe importa e cada cliente é tratado com a atenção que merece.
+                    </p>
+                    <p class="section-text">
+                        Nossos profissionais são especialistas em técnica clássica e moderna, sempre atualizados com as tendências de mercado. Cada corte é personalizado, considerando o tipo de cabelo, formato do rosto e estilo de vida do cliente.
+                    </p>
+                    <div class="sobre-stats">
+                        <div class="stat">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Profissionais Especializados</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Clientes Satisfeitos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Serviços Section -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+
+            <div class="servicos-layout">
+                <article class="servico-card">
+                    <div class="servico-imagem">
+                        <span class="servico-placeholder">Adicione sua foto aqui</span>
+                    </div>
+                    <div class="servico-info">
+                        <h3 class="servico-nome">Corte Tradicional</h3>
+                        <p class="servico-descricao">Corte clássico com acabamento impecável, adaptado ao seu rosto e preferências pessoais.</p>
+                        <div class="servico-preco">R$ 45</div>
+                    </div>
+                </article>
+
+                <article class="servico-card">
+                    <div class="servico-imagem">
+                        <span class="servico-placeholder">Adicione sua foto aqui</span>
+                    </div>
+                    <div class="servico-info">
+                        <h3 class="servico-nome">Corte + Barba</h3>
+                        <p class="servico-descricao">A combinação perfeita: corte completo seguido de barbear com navalha e acabamento premium.</p>
+                        <div class="servico-preco">R$ 70</div>
+                    </div>
+                </article>
+
+                <article class="servico-card">
+                    <div class="servico-imagem">
+                        <span class="servico-placeholder">Adicione sua foto aqui</span>
+                    </div>
+                    <div class="servico-info">
+                        <h3 class="servico-nome">Barba</h3>
+                        <p class="servico-descricao">Barbear com navalha profissional, esfoliação e balm pós-barbear de alta qualidade.</p>
+                        <div class="servico-preco">R$ 35</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Equipe Section -->
+    <section class="equipe" id="equipe">
+        <div class="container">
+            <h2 class="section-title">Nossa Equipe</h2>
+            <p class="section-subtitle">Profissionais especializados com anos de experiência em técnicas clássicas e modernas.</p>
+
+            <div class="equipe-grid">
+                <article class="membro-card">
+                    <div class="membro-imagem">
+                        <div class="membro-placeholder">Adicione sua foto aqui</div>
+                    </div>
+                    <h3 class="membro-nome">Nome do Profissional</h3>
+                    <p class="membro-titulo">Especialidade</p>
+                    <p class="membro-descricao">Adicione informações da sua equipe aqui. Descreva a experiência, especializações e tempo de atuação do profissional.</p>
+                </article>
+
+                <article class="membro-card">
+                    <div class="membro-imagem">
+                        <div class="membro-placeholder">Adicione sua foto aqui</div>
+                    </div>
+                    <h3 class="membro-nome">Nome do Profissional</h3>
+                    <p class="membro-titulo">Especialidade</p>
+                    <p class="membro-descricao">Adicione informações da sua equipe aqui. Descreva a experiência, especializações e tempo de atuação do profissional.</p>
+                </article>
+
+                <article class="membro-card">
+                    <div class="membro-imagem">
+                        <div class="membro-placeholder">Adicione sua foto aqui</div>
+                    </div>
+                    <h3 class="membro-nome">Nome do Profissional</h3>
+                    <p class="membro-titulo">Especialidade</p>
+                    <p class="membro-descricao">Adicione informações da sua equipe aqui. Descreva a experiência, especializações e tempo de atuação do profissional.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="cta-final" id="agendar">
+        <div class="container">
+            <h2 class="cta-title">Seu Próximo Corte<br>Começa Aqui</h2>
+            <p class="cta-subtitle">Escolha seu horário e venha conhecer a experiência RC Barber Club.</p>
+
+            <div class="cta-buttons">
+                <a href="https://wa.me/5511999999999?text=Gostaria%20de%20agendar%20um%20horário" class="cta-primary large" target="_blank" rel="noopener">AGENDAR PELO WHATSAPP</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">RC</div>
+                    <p class="footer-tagline">RC Barber Club</p>
+                    <p class="footer-text">Estilo não se improvisa.</p>
+                </div>
+
+                <div class="footer-info">
+                    <h3 class="footer-title">Contato</h3>
+                    <p>
+                        <svg class="footer-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.1z"/></svg>
+                        <a href="tel:+5511999999999">(11) 99999-9999</a>
+                    </p>
+                    <p>
+                        <svg class="footer-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8.5z"/></svg>
+                        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener">WhatsApp</a>
+                    </p>
+                    <p>
+                        <svg class="footer-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Rua Exemplo, 123<br>São Paulo, SP</span>
+                    </p>
+                </div>
+
+                <div class="footer-hours">
+                    <h3 class="footer-title">Horários</h3>
+                    <p>
+                        <svg class="footer-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                        <span>Seg-Sex: 09:00 - 20:00</span>
+                    </p>
+                    <p>
+                        <svg class="footer-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+                        <span>Sábado: 09:00 - 18:00</span>
+                    </p>
+                    <p>
+                        <svg class="footer-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg>
+                        <span>Domingo: Fechado</span>
+                    </p>
+                </div>
+
+                <div class="footer-social">
+                    <h3 class="footer-title">Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.07 1.645.07 4.849 0 3.205-.012 3.584-.07 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 RC Barber Club. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
